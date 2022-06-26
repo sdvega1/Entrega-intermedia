@@ -1,0 +1,16 @@
+<h1> Inicio </h1>
+
+
+{% for equipo in equipos %}
+
+<h2>{{equipo.pais}} {{equipo.titulos}}</h2>
+
+{% endfor %}
+
+{% for jugador in jugadores %}
+
+<h2>{{jugador.nombre}}  {{jugador.edad}}  {{jugador.nacionalidad}} </h2>
+
+
+
+{% endfor %}
